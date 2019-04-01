@@ -1,0 +1,8 @@
+stages:
+- name: test
+  steps:
+  - runScriptConfig:
+      image: java:8
+      shellScript: echo 111
+timeout: 60
+notification: {}
